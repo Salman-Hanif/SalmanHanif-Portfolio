@@ -7,7 +7,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(0.637 0.237 25.331);
-    --color-red-600: oklch(0.577 0.245 27.325);
     --color-green-500: oklch(0.723 0.219 149.579);
     --color-green-600: oklch(0.627 0.194 149.214);
     --color-green-700: oklch(0.527 0.154 150.069);
@@ -242,14 +241,8 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
-  .top-1 {
-    top: calc(var(--spacing) * 1);
-  }
   .top-1\/2 {
     top: calc(1/2 * 100%);
-  }
-  .right-1 {
-    right: calc(var(--spacing) * 1);
   }
   .right-1\/2 {
     right: calc(1/2 * 100%);
@@ -262,9 +255,6 @@
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
-  }
-  .left-1 {
-    left: calc(var(--spacing) * 1);
   }
   .left-1\/2 {
     left: calc(1/2 * 100%);
@@ -524,9 +514,6 @@
   .h-\[40px\] {
     height: 40px;
   }
-  .h-\[70px\] {
-    height: 70px;
-  }
   .h-\[180px\] {
     height: 180px;
   }
@@ -554,9 +541,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -578,14 +562,8 @@
   .w-\[2px\] {
     width: 2px;
   }
-  .w-\[70px\] {
-    width: 70px;
-  }
   .w-\[90\%\] {
     width: 90%;
-  }
-  .w-\[120px\] {
-    width: 120px;
   }
   .w-\[150px\] {
     width: 150px;
@@ -697,10 +675,6 @@
   .translate-full {
     --tw-translate-x: 100%;
     --tw-translate-y: 100%;
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .-translate-x-1 {
-    --tw-translate-x: calc(var(--spacing) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-x-1\/2 {
@@ -1324,9 +1298,6 @@
   .bg-red-500\/\[50\%\] {
     background-color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
   }
-  .bg-red-600 {
-    background-color: var(--color-red-600);
-  }
   .bg-transparent {
     background-color: transparent;
   }
@@ -1571,12 +1542,6 @@
   .align-top {
     vertical-align: top;
   }
-  .font-\[Sacramento\] {
-    font-family: Sacramento;
-  }
-  .font-\[sacramento\] {
-    font-family: sacramento;
-  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -1601,12 +1566,6 @@
   }
   .text-\[30px\] {
     font-size: 30px;
-  }
-  .text-\[100\%\] {
-    font-size: 100%;
-  }
-  .text-\[120px\] {
-    font-size: 120px;
   }
   .text-\[220px\] {
     font-size: 220px;
@@ -1694,9 +1653,6 @@
   }
   .text-\[\#fff\] {
     color: #fff;
-  }
-  .text-\[Sacramento\] {
-    color: Sacramento;
   }
   .text-black {
     color: var(--color-black);
