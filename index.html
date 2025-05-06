@@ -52,6 +52,7 @@
     </style>
 </head>
 <body>
+  <!------------------------------- Preloader Section  -------------------------------->
   <div id="pre-loader" class="fixed w-screen h-screen bg-black top-0 left-0 z-90 flex-col gap-7 flex justify-center items-center">
     <div class="flex-col gap-4 w-full flex items-center justify-center ">
       <div
@@ -64,15 +65,16 @@
     </div>
     <div><h3 class="text-white text-4xl loader-heading">Salman Hanif</h3></div>
   </div>
-    <div class="header z-12">
-        <a href="#home" class="logo text-[220px]">Salman</a>
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
-        <nav  class="navbar">
-            <a href="#main" class="active">Home</a>
-            <a href="#websites">My Work</a>
-            <a href="#services">Services</a>
-            <a href="#form">Contact</a>
-        </nav>
+  <!------------------------------- Header Section  -------------------------------->
+  <div class="header z-12">
+      <a href="#home" class="logo text-[220px]">Salman</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <nav  class="navbar">
+          <a href="#main" class="active">Home</a>
+          <a href="#websites">My Work</a>
+          <a href="#services">Services</a>
+          <a href="#form">Contact</a>
+      </nav>
     </div>
 <!------------------------------- Hero Section  -------------------------------->
     <div class="main" id="main">
@@ -97,13 +99,12 @@
             </div>
         </div>
     </div>
+    <h2 class="text-white w-full text-center underline text-3xl md:text-4xl font-bold decoration-[#10be27] py-2.5">My Work</h2>
     <!-------------------------- Work Section ---------------------------------->
-        <section id="websites" class="sectiontwo2 flex  overflow-hidden  gap-20 flex-col">
-          <h2
-            class="text-4xl underline md:no-underline decoration-green-600 sm:text-[40px] my-2 bg-[#111] relative z-1 font-bold px-4 py-2 w-max mx-auto text-center text-[#fff] sm:border-b-2 border-[#10be27] left-1/2 -translate-x-1/2 "
-          >
-            Latest Works
-          </h2>
+    <div class="w-full relative">
+    
+    </div>
+    <section id="websites" class="sectiontwo2 justify-center p-0 m-0">
           <div
             class="flex flex-col sm:flex-row gap-4 mt-8 sm:gap-[80px] items-center sm:mt-20 relative"
           >
@@ -130,7 +131,7 @@
             </a>
     
             <div class="w-full">
-              <h3 class="text-green-500 font-bold text-2xl md:text-4xl">
+              <h3 class="text-[#04b30f] font-bold text-2xl md:text-4xl">
                 Ecommerce Website
               </h3>
       
@@ -146,7 +147,7 @@
             class="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative"
           >
             <div class="order-2 sm:order-1 w-full">
-              <h3 class="text-green-500 font-bold text-2xl md:text-4xl">
+              <h3 class="text-[#04b30f] font-bold text-2xl md:text-4xl">
                The Smashers
               </h3>
               
@@ -202,7 +203,7 @@
             </a>
     
             <div class="w-full">
-              <h3 class="text-green-500 font-bold text-2xl md:text-4xl">
+              <h3 class="text-[#04b30f] font-bold text-2xl md:text-4xl">
                 NewsHub
               </h3>
              
@@ -218,7 +219,7 @@
             class="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative"
           >
             <div class="order-2 sm:order-1 w-full">
-              <h3 class="text-green-500 font-bold text-2xl md:text-4xl">
+              <h3 class="text-[#04b30f] font-bold text-2xl md:text-4xl">
                 Ahsan Medical Complex
               </h3>
               
@@ -252,9 +253,9 @@
           <div
             class="flex flex-col sm:flex-row gap-4 mt-12 sm:gap-[80px] items-center sm:mt-20 relative"
           >
-            <div
+            <!-- <div
               class="h-[1px] left-1/4 right-1/2 bg-[#10be27] absolute top-1/2 hidden sm:block"
-            ></div>
+            ></div> -->
             <!-- <div
               class="w-4 h-4 rounded-full border-[3px] border-[#ffffff] absolute left-1/2 -translate-x-1/2 bg-[#111] z-1 hover:scale-110 ease-in-out duration-100 hidden sm:block"
             ></div> 
@@ -274,7 +275,7 @@
             </a>
     
              <div class="w-full">
-              <h3 class="text-green-500 font-bold text-2xl md:text-4xl">
+              <h3 class="text-[#04b30f] font-bold text-2xl md:text-4xl">
                 Pioneer Digital
               </h3>
               
@@ -293,61 +294,150 @@
           ></div>
         </section>
 <!-------------------------- Services Section ---------------------------------->
-<section id="services" class="services py-12 flex justify-center flex-col gap-15 items-center px-6 sm:px-12 lg:px-28">
-  <h2 class="text-white text-4xl underline decoration-green-700">Services</h2>
+<section id="services" class="bg-black text-white py-16 px-4">
+  <div class="container mx-auto">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 underline decoration-[#04b30f] ">My Services</h2>
+      <p class="max-w-2xl mx-auto text-gray-300">I deliver high-quality digital solutions tailored to your business needs</p>
+    </div>
 
-  <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-center gap-4">
- 
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 place-items-center w-full">
+      <div class="bg-[#1E1E1E] w-full h-[320px] md:h-[420px] rounded-lg overflow-hidden transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-[#04b30f]/20">
+        <div class="p-6">
+          <div class="w-14 h-14 bg-[#04b30f] rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Web Development</h3>
+          <p class="text-gray-300 mb-4">Custom websites built with modern technologies for optimal performance and scalability.</p>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              HTML5, CSS3, JavaScript
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              Backend Integration
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              Database Management
+            </li>
+          </ul>
+        </div>
+      </div>
+
+  
+      <div class="bg-[#1E1E1E] w-full h-[320px] md:h-[420px] rounded-lg overflow-hidden transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-[#04b30f]/20">
+        <div class="p-6">
+          <div class="w-14 h-14 bg-[#04b30f] rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">React Development</h3>
+          <p class="text-gray-300 mb-4">Interactive web applications built with React.js for seamless user experiences.</p>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              React.js & Next.js
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              State Management
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              API Integration
+            </li>
+          </ul>
+        </div>
+      </div>
 
 
+      <div class="bg-[#1E1E1E] w-full h-[320px] md:h-[420px] rounded-lg overflow-hidden transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-[#04b30f]/20">
+        <div class="p-6">
+          <div class="w-14 h-14 bg-[#04b30f] rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Responsive Design</h3>
+          <p class="text-gray-300 mb-4">Beautiful designs that work perfectly on all devices and screen sizes.</p>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              Mobile-First Approach
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              Cross-Browser Compatibility
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              Performance Optimized
+            </li>
+          </ul>
+        </div>
+      </div>
 
-    <div class="card h-[650px] xl:h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
-    bg-gradient-to-r from-[#04b30f] to-[rgb(6,221,60)]  rounded-xl hover:scale-103 hover:-translate-y-2 duration-100 ease-in-out flex flex-col justify-center items-center text-white">
-      <div class="bg-black w-22 h-22 rounded-[50%] flex justify-center items-center"><i class="fas fa-laptop-code text-5xl"></i></div>
-      <h2 class="text-[30px] text-center text-black">Frontend Development</h2>
-      <p class="text-white text-[13px] text-center">We specialize in creating visually appealing and interactive user interfaces that offer seamless and engaging user experiences. By leveraging cutting-edge frontend technologies like React.js, HTML5, CSS3, and JavaScript, we build websites that are not only aesthetically pleasing but also highly functional. We focus on responsive design, ensuring your website looks great and performs flawlessly across all devices. Whether it’s a single-page application (SPA) or a complex multi-page website, we tailor every project to meet your specific needs and ensure an intuitive browsing experience for your visitors.</p>
+      <!-- SEO Service -->
+      <div class="bg-[#1E1E1E] w-full h-[320px] md:h-[420px] rounded-lg overflow-hidden transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-[#04b30f]/20">
+        <div class="p-6">
+          <div class="w-14 h-14 bg-[#04b30f] rounded-full flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">SEO Optimization</h3>
+          <p class="text-gray-300 mb-4">Boost your search rankings and drive organic traffic to your website.</p>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              Keyword Research
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              On-Page Optimization
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#04b30f] mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              Technical SEO Audit
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-
-
-
-
-
-    <div class="card h-[650px] xl:h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
-    bg-gradient-to-r from-[#04b30f] to-[rgb(6,221,60)]  rounded-xl hover:scale-103 hover:-translate-y-2 duration-100 ease-in-out flex flex-col justify-center items-center text-white">
-      <div class="bg-black w-22 h-22 rounded-[50%] flex justify-center items-center"><i class="fas fa-tachometer-alt text-5xl"></i></div>
-      <h2 class="text-[30px] text-center text-black">Web Performance Optimization</h2>
-      <p class="text-white text-[13px] text-center">Website speed is a crucial factor that directly impacts user satisfaction and search engine rankings. We offer comprehensive web performance optimization services to ensure your website loads quickly and operates smoothly. By optimizing images, minifying CSS, JavaScript, and HTML files, and implementing lazy loading, we reduce the page load time and improve overall performance. Our strategies also include server-side optimizations, caching, and CDN integrations to ensure your website performs well even under high traffic. This results in a better user experience, higher retention rates, and improved conversion rates for your business.</p>
-  </div>
-
-
-
-
-
-
-    <div class="card h-[650px] xl:h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
-    bg-gradient-to-r from-[#04b30f] to-[rgb(6,221,60)]  rounded-xl hover:scale-103 hover:-translate-y-2 duration-100 ease-in-out flex flex-col justify-center items-center text-white">
-      <div class="bg-black w-22 h-22 rounded-[50%] flex justify-center items-center"><i class="fab fa-react text-5xl"></i></div>
-      <h2 class="text-[30px] text-center text-black">React Development</h2>
-      <p class="text-white text-[13px] text-center">Our React development services are designed to build high-performance, dynamic, and scalable web applications. We use React.js, one of the most powerful and widely used JavaScript libraries, to create interactive UIs that ensure fast updates and minimal load times. With React's component-based architecture, we can create maintainable, reusable, and easily upgradable code for your application. Whether it’s building a sophisticated eCommerce platform, a custom dashboard, or a social media app, we have the expertise to deliver top-notch solutions that meet your business goals.</p>
-  </div>
-
-
-
-
-
-    <div class="card h-[650px] xl:h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
-    bg-gradient-to-r from-[#04b30f] to-[rgb(6,221,60)]  rounded-xl hover:scale-103 hover:-translate-y-2 duration-100 ease-in-out flex flex-col justify-center items-center text-white">
-      <div class="bg-black w-22 h-22 rounded-[50%] flex justify-center items-center"><i class="fas fa-mobile-alt text-5xl"></i></div>
-      <h2 class="text-[30px] text-center text-black">Mobile-Responsive Web Design</h2>
-      <p class="text-white text-[13px] text-center">In today’s mobile-first world, having a responsive website is more important than ever. We design and develop mobile-friendly websites that adjust seamlessly to any screen size, ensuring that your content is accessible and visually appealing on smartphones, tablets, and desktops. Our responsive designs use flexible grid layouts, adaptive images, and media queries to ensure a consistent user experience across all devices. Whether you have a simple landing page or a complex web application, we ensure your website works flawlessly across all devices, helping you reach a wider audience and improving user engagement</p>
-  </div>
-
-</div>
 </section>
-
 <!---------------------------- Form Section ------------------------------------>
-<section id="form" class="flex flex-col justify-center items-center w-full px-4 gap-11">
-  <h2 class="text-white text-4xl mb-8 underline decoration-green-700">Lets Talk about Work</h2>
+<section id="form" class="flex flex-col justify-center items-center w-full px-4 gap-11 py-10">
+  <h2 class="text-white text-3xl md:text-4xl mb-8 underline decoration-green-700">Lets Talk about Work</h2>
   <div class="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-10">
     <!-- Map Section -->
     <div class="w-full bg-white rounded-2xl overflow-hidden min-h-[500px]">
@@ -356,7 +446,7 @@
     
     <!-- Form Section -->
     <div class="w-full flex justify-center items-center gap-7 ">
-      <div id="drawer-contact" class="flex flex-col gap-6 border-green-500 hover:scale-[1.02] duration-200 shadow-[0_0px_60px_#0e52189f] border-2 w-full max-w-[600px] h-[550px] rounded-3xl p-6 ">
+      <div id="drawer-contact" class="flex flex-col gap-6 border-[#04b30f] hover:scale-[1.02] duration-200 shadow-[0_0px_60px_#0e52189f] border-2 w-full max-w-[600px] h-[550px] rounded-3xl p-6 ">
         <h5 id="drawer-label" class="flex gap-3 items-center text-white text-4xl uppercase">
           <svg class="w-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
             <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
@@ -388,6 +478,79 @@
   </div>
 </section>
 <!---------------------------- Footer Section ------------------------------------>
+<footer id="footer" class="text-white pt-12 pb-6 bg-[#1E1E1E]">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      
+      <div class="mb-8">
+        <h3 class="text-[#04b30f] text-xl font-semibold mb-4 pb-2 border-b border-[#04b30f] inline-block">About Me</h3>
+        <p class="mb-4">I'm a passionate designer & developer creating beautiful, functional digital experiences.</p>
+        <div class="flex space-x-4 gap-1.5">
+          <a href="https://wwwinstagram.com/salman_hanifff?igsh=YThyYjZ5cDU2bHVu" target="_blank" class="bg-gray-800 hover:bg-[#04b30f] text-white w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="http://www.linkedin.com/in/salman-hanif-774713300/" target="_blank" class="bg-gray-800 hover:bg-[#04b30f] text-white w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.facebook.com/share/18GJDhyanv/" target="_blank" class="bg-gray-800 hover:bg-[#04b30f] text-white w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://wa.me/923122711434" target="_blank" class="bg-gray-800 hover:bg-[#04b30f] text-white w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+      <div class="mb-8">
+        <h3 class="text-[#04b30f] text-xl font-semibold mb-4 pb-2 border-b border-[#04b30f] inline-block">Quick Links</h3>
+        <ul class="space-y-2">
+          <li><a href="#main" class="hover:text-[#04b30f] transition-colors duration-300">Home</a></li>
+          <li><a href="#websites" class="hover:text-[#04b30f] transition-colors duration-300">Projects</a></li>
+          <li><a href="#services" class="hover:text-[#04b30f] transition-colors duration-300">Services</a></li>
+          <li><a href="#form" class="hover:text-[#04b30f] transition-colors duration-300">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="mb-8">
+        <h3 class="text-[#04b30f] text-xl font-semibold mb-4 pb-2 border-b border-[#04b30f] inline-block">Services</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-[#04b30f] transition-colors duration-300">Web Development</a></li>
+          <li><a href="#" class="hover:text-[#04b30f] transition-colors duration-300">Responsive Desing</a></li>
+          <li><a href="#" class="hover:text-[#04b30f] transition-colors duration-300">React Development</a></li>
+          <li><a href="#" class="hover:text-[#04b30f] transition-colors duration-300">SEO Optimization</a></li>
+        </ul>
+      </div>
+      
+      <div class="mb-8">
+        <h3 class="text-[#04b30f] text-xl font-semibold mb-4 pb-2 border-b border-[#04b30f] inline-block">Contact</h3>
+        <ul class="space-y-3">
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 mt-0.5 text-[#04b30f]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            <span>Memon Goth Malir, Karachi Pakistan</span>
+          </li>
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-[#04b30f]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            <span>+92 312 2711464</span>
+          </li>
+          <li class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-[#04b30f]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <span>salmanhanif44444@gmail.com</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="border-t border-gray-800 mt-8 pt-6 text-center text-gray-500 text-sm">
+      <p>&copy; 2025 SalmanHanif Portfolio. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="/logic.js"></script>
 </body>
